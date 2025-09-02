@@ -2,7 +2,7 @@
 
 **AI Engineer | Generative AI Expert | NLP & LLMs Specialist | Cloud MLOps Practitioner**
 
----
+----
 
 Welcome to my GitHub!  
 I design and deploy intelligent solutions that make an impact. My journey began in web development, and evolved into a deep passion for Artificial Intelligence, NLP, and Large Language Models. I thrive at the intersection of data, algorithms, and scalable cloud infrastructure.
