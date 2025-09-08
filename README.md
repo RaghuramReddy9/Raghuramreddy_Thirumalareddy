@@ -12,7 +12,7 @@ Every week, I share projects aligned with a 6-month roadmap to become a job-read
 - ⚖️ [Legal RAG Bot](https://github.com/RaghuramReddy9/legal-rag-bot) — Retrieval-Augmented Q&A over legal docs (FAISS + LangChain + Gemini)  
 - 👔 [HR Docs Assistant](https://github.com/RaghuramReddy9/hr-docs-assistant) — Private HR knowledge assistant (LangChain retrievers + Gemini)  
 - 💬 [Gemini Chatbot](https://github.com/RaghuramReddy9/gemini-chatbot) — Multi-step agent with Google Gemini APIs  
-- 📞 *Coming Soon (Week 8)*: **Customer Support AI Assistant** — Full-stack app with FastAPI, Docker, MLflow  
+- 📞 *Coming Soon : **Customer Support AI Assistant** — Full-stack app with FastAPI, Docker, MLflow  
 
 ---
 
