@@ -1,48 +1,34 @@
-## Hi there 👋, I'm Raghuram Reddy.
+# 👋 Hi, I'm Raghuram Reddy
 
-**AI Engineer | Generative AI Expert | NLP & LLMs Specialist | Cloud MLOps Practitioner**
+**Generative AI Engineer | LLMs | RAG | Fine-Tuning (LoRA/PEFT) | Multi-Agent Systems**
 
-----
-
-Welcome to my GitHub!  
-I design and deploy intelligent solutions that make an impact. My journey began in web development, and evolved into a deep passion for Artificial Intelligence, NLP, and Large Language Models. I thrive at the intersection of data, algorithms, and scalable cloud infrastructure.
+I build **real-world Generative AI applications**: domain-tuned LLMs, retrieval-augmented assistants, and multi-agent systems with monitoring and deployment.  
+Every week, I share projects aligned with a 6-month roadmap to become a job-ready **Generative AI Engineer**.
 
 ---
 
-## My Expertise
-
-- **Languages:** Python, JavaScript
-- **Frameworks & Libraries:** TensorFlow, PyTorch, scikit-learn, FastAPI, Hugging Face Transformers
-- **Cloud & MLOps:** AWS, Azure, GCP, Docker, Kubernetes, CI/CD
-- **Specialties:** Generative AI, LLMs, NLP, Computer Vision, End-to-End AI Solutions
-
----
-
-## Notable Projects
-
-- **GenAI Playground:** Interactive demos and experiments with cutting-edge generative models.
-- **Smart NLP Toolkit:** Streamlined NLP pipelines from data ingestion to model deployment.
-- **VisionHub:** Computer vision applications for real-world problems.
-
-> Explore my repositories for more open-source contributions and collaborations.
+## 🚀 Highlight Projects
+- 🏥 [Medassist-QA](https://huggingface.co/RaghuramReddyT/medassist-qa) — Fine-tuned Healthcare FAQ Bot (LoRA/PEFT, Falcon-7B)  
+- ⚖️ [Legal RAG Bot](https://github.com/RaghuramReddy9/legal-rag-bot) — Retrieval-Augmented Q&A over legal docs (FAISS + LangChain + Gemini)  
+- 👔 [HR Docs Assistant](https://github.com/RaghuramReddy9/hr-docs-assistant) — Private HR knowledge assistant (LangChain retrievers + Gemini)  
+- 💬 [Gemini Chatbot](https://github.com/RaghuramReddy9/gemini-chatbot) — Multi-step agent with Google Gemini APIs  
+- 📞 *Coming Soon (Week 8)*: **Customer Support AI Assistant** — Full-stack app with FastAPI, Docker, MLflow  
 
 ---
 
-## Connect with Me
-
-- [LinkedIn](https://www.linkedin.com/in/raghuramreddy-ai/)
-- [GitHub](https://github.com/RaghuramReddy9)
-
----
-
-## Fun Facts
-
-- Passionate about leveraging AI for positive societal impact.
-- Always open to research, collaboration, and challenging new ideas.
-- Lifelong learner and advocate for tech-driven innovation.
+## 🛠️ Core Skills & Tools
+- **LLMs & GenAI:** Hugging Face Transformers, LoRA/PEFT, OpenAI/Gemini APIs, RAG  
+- **Frameworks:** LangChain, LangGraph, Agent2Agent, Multi-Agent orchestration  
+- **Databases:** FAISS, Pinecone, ChromaDB  
+- **Deployment & MLOps:** FastAPI, Docker, MLflow, Streamlit, Grafana, CI/CD  
+- **Languages:** Python (primary), JavaScript (frontend integration basics)  
 
 ---
 
-_Thanks for visiting my profile. Let’s connect and build the future of AI together!_
+## 🌐 Connect with Me
+- LinkedIn: [raghuramreddy-ai](https://www.linkedin.com/in/raghuramreddy-ai)  
+- Hugging Face: [RaghuramReddyT](https://huggingface.co/RaghuramReddyT)  
 
+---
 
+📌 *Pinned repos feature my best AI projects with clear READMEs, examples, and real-world use cases.*
