@@ -19,7 +19,7 @@ Currently building **end-to-end AI systems across multiple domains** including l
 ![Focus](https://img.shields.io/badge/Focus-AI%20Engineering-purple)
 
 ---
-<!-- ## 🚀 2026 Production Portfolio (In Progress)
+<!-- ##  2026 Production Portfolio (In Progress)
 
 > One production-grade AI system. Three industry domains.  
 > Engineering · Finance · Legal
@@ -35,7 +35,7 @@ Currently building **end-to-end AI systems across multiple domains** including l
 
 ---
 
-# 🚀 Production AI Portfolio
+#  Production AI Portfolio
 
 A collection of **production-style AI systems designed to explore real engineering challenges in LLM applications.**
 
@@ -50,94 +50,95 @@ A collection of **production-style AI systems designed to explore real engineeri
 
 ---
 
-# 🧠 Selected Projects
+## 🧠 Selected Projects
 
-## MedAssist-QA — Fine-Tuned Medical Assistant
+### Multi-Agent Research Assistant  
+🔗 Repo: https://github.com/RaghuramReddy9/multi-agent-research-assistant
 
-Fine-tuned healthcare FAQ model using **LoRA / PEFT techniques** for domain-specific question answering.
+Built a **production-oriented LangGraph-based multi-agent research system** coordinating planner, specialist, critic, and synthesizer agents to automate complex analytical workflows.
 
-**Tech**
+**Key Highlights**
 
-Falcon-7B  
-HuggingFace Transformers  
-PEFT / LoRA fine-tuning
+- Implemented shared state orchestration across agents for structured reasoning
+- Added confidence scoring and evaluation logging to improve research traceability
+- Enabled auditable outputs and controlled agent behavior for multi-step analysis
+- Deployed API-based workflow automation using FastAPI
 
-Model
+**Tech Stack**
 
-https://huggingface.co/RaghuramReddyT/medassist-qa
-
----
-
-## Legal RAG Assistant
-
-AI assistant that answers questions over legal documents using **retrieval-augmented generation**.
-
-Key features:
-
-• semantic document retrieval  
-• vector search pipeline  
-• structured prompt design
-
-Tech
-
-FAISS  
-LangChain  
-Gemini models
-
-Repo
-
-https://github.com/RaghuramReddy9/legal-rag-bot
+LangGraph • Python • FastAPI • Structured evaluation pipelines
 
 ---
 
-## HR Knowledge Assistant
+### Customer Support Multi-Agent Assistant  
+🔗 Repo: https://github.com/RaghuramReddy9/customer-support-multiagent
 
-Enterprise-style knowledge assistant designed to answer HR policy questions from internal documentation.
+Developed a **department-aware multi-agent ticket triage system** integrating Gemini-based intent routing with RAG-backed knowledge bases.
 
-Tech
+**Key Highlights**
 
-LangChain  
-Gemini APIs  
-Document ingestion pipelines  
-Vector retrieval
+- Automated support classification across billing, technical, and general support domains
+- Achieved **0.89 classification accuracy** on a 2,000-ticket validation dataset
+- Maintained **<2s inference latency** for real-time support workflows
+- Deployed Dockerized FastAPI service with **MLflow tracking** for production monitoring
 
-Repo
+**Tech Stack**
 
-https://github.com/RaghuramReddy9/hr-docs-assistant
-
----
-
-## Multi-Agent Customer Support System
-
-Agent-based architecture that routes requests to specialized agents for billing, technical support, and general inquiries.
-
-Features
-
-• task routing  
-• agent orchestration  
-• retrieval-augmented reasoning
-
-Tech
-
-LangGraph  
-Multi-agent workflows  
-Vector retrieval
+Gemini • LangGraph • RAG • FastAPI • Docker • MLflow
 
 ---
 
-## Gemini AI Chat System
+### MedAssist-QA (Fine-Tuned Medical LLM)  
+🔗 Model: https://huggingface.co/RaghuramReddyT/medassist-qa
 
-Structured multi-step AI assistant demonstrating **prompt chaining and reasoning workflows**.
+Fine-tuned a **domain-specific medical language model** using parameter-efficient training techniques to improve healthcare question answering.
 
-Tech
+**Key Highlights**
 
-Google Gemini API  
-Prompt pipelines  
-Decision logic workflows
+- Trained using **LoRA / PEFT** on **22K curated clinical Q&A pairs**
+- Improved **F1 score from 0.61 → 0.72**
+- Published model artifacts on Hugging Face
+- Deployed FastAPI inference endpoints supporting concurrent validation workloads
 
-Repo
+**Tech Stack**
 
-https://github.com/RaghuramReddy9/gemini-chatbot
+Falcon-7B • HuggingFace Transformers • LoRA / PEFT • FastAPI
+
+---
+
+### Legal Document Q&A Assistant (RAG System)  
+🔗 Repo: https://github.com/RaghuramReddy9/legal-rag-assistant
+
+Designed and implemented an **end-to-end Retrieval-Augmented Generation pipeline** for legal document analysis.
+
+**Key Highlights**
+
+- Indexed **2,000 legal documents** using FAISS vector search
+- Integrated LangChain retrieval pipelines with Gemini reasoning
+- Improved **Top-5 retrieval hit rate from 62% → 74%**
+- Maintained **sub-3 second response latency** for interactive queries
+
+**Tech Stack**
+
+LangChain • FAISS • Gemini • Python
+
+---
+
+### Investor Q&A Assistant  
+🔗 Repo: https://github.com/RaghuramReddy9/investor_qa_assistant
+
+Engineered a **hybrid RAG + real-time query routing system** for financial information retrieval.
+
+**Key Highlights**
+
+- Differentiates static knowledge retrieval from live financial queries
+- Implemented structured routing logic to reduce hallucination risk
+- Added safe-fail response mechanisms for unsupported investment claims
+- Improved reliability of responses in high-stakes financial contexts
+
+**Tech Stack**
+
+RAG pipelines • Query routing • Financial knowledge systems
 
 ---
 
@@ -146,14 +147,24 @@ https://github.com/RaghuramReddy9/gemini-chatbot
 ### AI / Machine Learning
 Retrieval Augmented Generation (RAG)  
 Multi-Agent Systems  
-LLM Fine-Tuning (LoRA / DPO)  
-LLM Evaluation & Observability  
+LLM Fine-Tuning (LoRA / DPO /PEFT, QLoRA)  
+LLM Evaluation & Observability
+Scikit-learn
+PyTorch
+MLflow
+Feature Engineering
+Model Evaluation
+Hyperparameter Tuning
+A/B Testing 
 
 ### Frameworks
 LangChain  
 LangGraph  
 HuggingFace Transformers  
 Model Context Protocol (MCP)
+OpenAI API
+Azure OpenAI 
+Gemini API
 
 ### Vector Databases
 FAISS  
@@ -168,9 +179,21 @@ GitHub Actions
 Langfuse  
 Grafana
 
+### Cloud/Data 
+AWS
+Azure
+Airflow
+ETL
+Data Validation
+
 ### Languages
 Python  
 JavaScript
+SQL
+PySpark
+R
+Pandas
+NumPy
 
 ---
 
